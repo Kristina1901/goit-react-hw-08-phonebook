@@ -28,7 +28,11 @@ const ContactForm = () => {
   const handleSubmit = e => {
     e.preventDefault();
 
-    if (contacts.find(contact => contact.name === name)) {
+    if (
+      contacts.find(
+        contact => contact.name.toLowerCase() === name.toLowerCase()
+      )
+    ) {
       toast.error(`${name} is already in contacts`);
       // resetForm();
       return;
