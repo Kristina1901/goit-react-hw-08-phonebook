@@ -30,7 +30,7 @@ export default function SignIn() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Container component="main" maxWidth="xs" background="red">
+      <Container component="main" maxWidth="xs">
         <CssBaseline />
         <Box
           sx={{
@@ -43,7 +43,7 @@ export default function SignIn() {
             borderRadius: '5px',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}></Avatar>
+          <Avatar sx={{ m: 1 }}></Avatar>
           <Typography component="h1" variant="h5">
             Sign in
           </Typography>

@@ -31,7 +31,7 @@ export default function SignUp() {
   };
 
   return (
-    <ThemeProvider theme={theme} background={'red'}>
+    <ThemeProvider theme={theme}>
       <Container component="main" maxWidth="xs">
         <CssBaseline />
         <Box
@@ -41,11 +41,11 @@ export default function SignUp() {
             flexDirection: 'column',
             alignItems: 'center',
             padding: 8,
-            background: 'linear-gradient(90deg, #5ee6f0,#9a3deb,#6912d5)',
             borderRadius: '5px',
+            background: 'linear-gradient(90deg, #5ee6f0,#9a3deb,#6912d5)',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}></Avatar>
+          <Avatar sx={{ m: 1 }}></Avatar>
           <Typography component="h1" variant="h5">
             Sign up
           </Typography>

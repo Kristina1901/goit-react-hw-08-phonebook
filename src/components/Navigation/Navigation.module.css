@@ -2,7 +2,7 @@
   display: inline-block;
   font-weight: 500;
   font-size: 18px;
-  color: #2a363b;
+  color: white;
   text-decoration: none;
 }
 
@@ -12,5 +12,5 @@
 
 .activeLink {
   composes: link;
-  color: blue;
+  color: yellow;
 }
